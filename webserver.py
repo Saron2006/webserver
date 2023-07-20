@@ -8,7 +8,7 @@ To develop a simple webserver to serve html programming pages.
 
 ### Step 1:
 
-HTML content creation is done
+HTML content creation is done 
 
 ### Step 2:
 
@@ -27,7 +27,8 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
-'''pyfrom http.server import HTTPServer,BaseHTTPRequestHandler
+```py
+from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
 <!doctype html>
@@ -58,18 +59,13 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-
-'''
+```
 ## OUTPUT:
+##server output:
+![server output(serveroutput.jpg)
 
-###serveroutput
-
-![serveroutput](serveroutput.jpg)
-
-###clientoutput
-
-![clientoutput](clientoutput)
-
+##client output:
+![client output(clientoutput.jpg)
 
 ## RESULT:
-The program is executed succesfull
+The program is executed succesfully
