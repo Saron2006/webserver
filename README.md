@@ -27,7 +27,8 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
-'''pyfrom http.server import HTTPServer,BaseHTTPRequestHandler
+'''py
+from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
 <!doctype html>
@@ -60,6 +61,7 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
 '''
+
 ## OUTPUT:
 
 ###serveroutput
