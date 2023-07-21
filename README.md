@@ -69,7 +69,7 @@ httpd.serve_forever()
 
 ### clientoutput
 
-![clientoutput](clientoutput.jpg)
+![clientoutput](Clientoutput.jpg)
 
 ## RESULT:
 The program is executed succesfull
